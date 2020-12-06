@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Elements - Web Components</title>
+    <style>
+        .pink > button {
+            background-color: pink;
+        }
+
+        .yellow > button {
+            background-color: yellow;
+        }
+
+        .green > button {
+            color: white;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+<my-button>ボタン</my-button>
+<my-button class="pink">ボタン</my-button>
+<my-button class="yellow">ボタン</my-button>
+<my-button class="green">ボタン</my-button>
+
+<script src="main.js"></script>
+</body>
+</html>
